@@ -44,6 +44,8 @@ def transfer_task(id, source, target, target_project, task_map, model_map):
     # events = source.events.get_task_plots(task=id)
     # events = source.events.get_task_single_value_metrics(tasks=[id])
 
+    # There are the expoert and import tasks functions which could be useful to transfer the stats
+
     # Store task
     insert = target.tasks.create(
         comment=task.comment,

@@ -41,7 +41,7 @@ model_ids = [
     '731a44f3d5ce4a799cd67238bcea8b04'
 ]
 
-target_project_name = "Transfer Testrr"
+target_project_name = "Transfer Test"
 
 # Constants and Variables
 transfer_tag_name = "LNU TRANSFER"
